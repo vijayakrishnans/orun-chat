@@ -6,14 +6,14 @@
 }
 
 @layer base {
-  /* Chessboard background (OC2): two near-neutral tones in alternating
+  /* Chessboard background (OC2): a cream-and-brown board in alternating
      squares, drawn with a conic gradient so there is no image to load.
-     The chat panel is bg-default/75, so the board shows fully in the
-     margins and sidebar and only faintly behind the messages. */
+     The chat panel is bg-default/75 and the sidebar bg-default/70, so the
+     board shows bold in the gutters and softly behind the text. */
   body {
-    --chess-square: 3.5rem;
-    --chess-light: var(--ui-color-neutral-50);
-    --chess-dark: var(--ui-color-neutral-200);
+    --chess-square: 4rem;
+    --chess-light: #f0d9b5;
+    --chess-dark: #b58863;
     background-color: var(--chess-light);
     background-image: conic-gradient(
       var(--chess-dark) 0 25%,
@@ -26,8 +26,8 @@
   }
 
   .dark body {
-    --chess-light: var(--ui-color-neutral-950);
-    --chess-dark: var(--ui-color-neutral-800);
+    --chess-light: #8b6b4a;
+    --chess-dark: #4a3221;
   }
 }
 

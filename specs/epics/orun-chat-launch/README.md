@@ -30,4 +30,4 @@ Orun Chat is for anyone who wants a private AI chat on their own Cloudflare acco
 |---|---|---|
 | OC0 — the spec | this doc set | merged; `task_get OC-1` reads done |
 | OC1 — plain chatbot live | the baseline build, branded Orun Chat | stage and prod answer; a chat streams and persists across a reload |
-| OC2 — chessboard background | a subtle chessboard behind the chat, light and dark | the squares show on stage and prod; chat text stays readable |
+| OC2 — chessboard background | a cream-and-brown chessboard behind the chat, light and dark | the squares show on stage and prod; chat text stays readable |
