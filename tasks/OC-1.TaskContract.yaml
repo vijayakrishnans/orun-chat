@@ -1,0 +1,13 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: OC-1
+spec:
+  goal: The orun-chat-launch epic doc set is on main and is the design of record for OC0–OC2.
+  affects:
+    - specs/epics/orun-chat-launch
+    - tasks
+  doneWhen:
+    - README, design, implementation plan, risks and status are on main
+    - task_get orun-chat-launch shows the epic with its milestones
+  gates: []
