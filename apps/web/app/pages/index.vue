@@ -62,31 +62,31 @@ async function onSubmit() {
 
 const quickChats = [
   {
-    label: 'Why use Nuxt UI?',
-    icon: 'i-logos-nuxt-icon'
+    label: 'Roast my deploy pipeline. Don\'t hold back.',
+    icon: 'i-lucide-flame'
   },
   {
-    label: 'Help me create a Vue composable',
-    icon: 'i-logos-vue'
+    label: 'Pitch Orunbase like it\'s a Super Bowl ad',
+    icon: 'i-lucide-party-popper'
   },
   {
-    label: 'Tell me more about UnJS',
-    icon: 'i-logos-unjs'
+    label: 'Write a commit message with main-character energy',
+    icon: 'i-lucide-sparkles'
   },
   {
-    label: 'Why should I consider VueUse?',
-    icon: 'i-logos-vueuse'
+    label: 'Explain Workers, D1 and R2 like I\'m a chess grandmaster',
+    icon: 'i-lucide-chess-knight'
   },
   {
-    label: 'Tailwind CSS best practices',
-    icon: 'i-logos-tailwindcss-icon'
+    label: 'Talk me out of a Friday deploy',
+    icon: 'i-lucide-skull'
   },
   {
-    label: 'What is the weather in Bordeaux?',
-    icon: 'i-lucide-sun'
+    label: 'Is it shipping weather in San Francisco?',
+    icon: 'i-lucide-cloud-sun'
   },
   {
-    label: 'Show me a chart of sales data',
+    label: 'Chart my deploy glow-up this week',
     icon: 'i-lucide-line-chart'
   }
 ]
