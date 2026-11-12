@@ -1,0 +1,14 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: OC-2
+spec:
+  goal: The page background is a subtle chessboard of alternating squares in light and dark mode, behind a chat that stays readable.
+  affects:
+    - default/orun-chat/web
+    - tasks
+  doneWhen:
+    - body background in apps/web/app/assets/css/main.css is a CSS chessboard with a light and a dark palette
+    - stage and prod show the squares in the margins and faintly behind the chat panel
+    - messages and the prompt read as clearly as before
+  gates: []

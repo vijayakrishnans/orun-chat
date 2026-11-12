@@ -6,8 +6,28 @@
 }
 
 @layer base {
+  /* Chessboard background (OC2): two near-neutral tones in alternating
+     squares, drawn with a conic gradient so there is no image to load.
+     The chat panel is bg-default/75, so the board shows fully in the
+     margins and sidebar and only faintly behind the messages. */
   body {
-    @apply bg-neutral-50 dark:bg-neutral-950;
+    --chess-square: 3.5rem;
+    --chess-light: var(--ui-color-neutral-50);
+    --chess-dark: var(--ui-color-neutral-200);
+    background-color: var(--chess-light);
+    background-image: conic-gradient(
+      var(--chess-dark) 0 25%,
+      var(--chess-light) 0 50%,
+      var(--chess-dark) 0 75%,
+      var(--chess-light) 0
+    );
+    background-size: calc(var(--chess-square) * 2) calc(var(--chess-square) * 2);
+    background-attachment: fixed;
+  }
+
+  .dark body {
+    --chess-light: var(--ui-color-neutral-950);
+    --chess-dark: var(--ui-color-neutral-800);
   }
 }
 
