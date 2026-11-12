@@ -1,0 +1,16 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: OC-3
+spec:
+  goal: The chessboard background is a bold cream-and-brown board, with the sidebar kept readable over it, and the epic status records OC0 and OC2.
+  affects:
+    - default/orun-chat/web
+    - specs/epics/orun-chat-launch
+    - tasks
+  doneWhen:
+    - "light mode squares are cream #f0d9b5 and brown #b58863 at 4rem; dark mode uses darker browns"
+    - the sidebar sits on a translucent surface so its text stays readable
+    - stage and prod show the new board
+    - IMPLEMENTATION-STATUS lists #3, #4 and this PR
+  gates: []

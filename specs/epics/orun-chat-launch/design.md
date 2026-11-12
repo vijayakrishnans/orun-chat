@@ -29,7 +29,7 @@ A caller only ever sees their own chats.
 
 ## 3. The surface
 
-The Nuxt UI chat: a new-chat page, the chat view with streaming replies, the history sidebar, and a sign-in button that becomes live when the GitHub OAuth app is set. From OC2 the page background is a chessboard: two near-neutral tones in alternating squares (a CSS conic gradient on `body` in `apps/web/app/assets/css/main.css`), one pair for light mode and one for dark.
+The Nuxt UI chat: a new-chat page, the chat view with streaming replies, the history sidebar, and a sign-in button that becomes live when the GitHub OAuth app is set. From OC2 the page background is a chessboard: cream and brown alternating squares (a CSS conic gradient on `body` in `apps/web/app/assets/css/main.css`), one pair for light mode and one for dark.
 
 ## 4. Events, secrets, and integrations
 
