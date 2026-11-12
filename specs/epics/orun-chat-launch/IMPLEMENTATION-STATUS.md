@@ -14,3 +14,5 @@ the code departed from `design.md`.
 OC1 landed through the baseline's own tasks (BASE-1, BASE-2 in EP-1 `nuxt-ai-chatbot-baselining`) before this epic was minted, so it has no OC task of its own.
 
 OC2 departs from the design's "two near-neutral tones": after the first grey board the owner asked for a bolder cream-and-brown board (#f0d9b5 / #b58863 at 4rem; #8b6b4a / #4a3221 in dark mode). The sidebar gained a `bg-default/70` surface so its muted text stays readable over the brown squares.
+
+Outside the milestone table, OC-4 (2026-11-12, owner request) rebranded the surface: a chess-knight logo and "Orun Chat" in the sidebar, sassy Orunbase-themed home suggestions with lucide icons, no "GitHub sign-in not connected" footer, and no Nuxt template links, description or OG image.

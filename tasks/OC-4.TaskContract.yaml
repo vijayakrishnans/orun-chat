@@ -1,0 +1,17 @@
+apiVersion: orun.io/v1
+kind: TaskContract
+metadata:
+  name: OC-4
+spec:
+  goal: Orun Chat looks like its own product — a chess-knight logo and the Orun Chat name, sassy Orunbase-themed suggestions, and no Nuxt or Vercel branding or the unconnected GitHub sign-in note.
+  affects:
+    - default/orun-chat/web
+    - specs/epics/orun-chat-launch
+    - tasks
+  doneWhen:
+    - "the sidebar shows a chess-knight logo and 'Orun Chat' instead of the Nuxt logo and 'Chat'"
+    - the home suggestions are Orunbase-themed with lucide icons, none naming Nuxt, Vue, UnJS, VueUse or Tailwind
+    - "the 'GitHub sign-in not connected' footer is gone (Login with GitHub still appears once an OAuth app is set)"
+    - the page description, OG image and user menu no longer point at Nuxt templates
+    - stage and prod show the change
+  gates: []

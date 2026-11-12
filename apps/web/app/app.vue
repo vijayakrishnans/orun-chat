@@ -19,14 +19,13 @@ useHead({
 
 // The site's name is one setting: SITE_NAME in shared/utils/site.ts.
 const title = SITE_NAME
-const description = 'A full-featured, hackable Nuxt AI chatbot template made with Nuxt UI.'
+const description = 'Orun Chat: a sassy AI chat on Orunbase, running on Cloudflare Workers AI.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/chat-light.png',
   twitterCard: 'summary_large_image'
 })
 </script>

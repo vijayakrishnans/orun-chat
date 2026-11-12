@@ -91,7 +91,7 @@ defineShortcuts({
           class="flex items-end gap-0.5 outline-primary/25 focus-visible:outline-3 rounded-md"
         >
           <Logo class="h-8 w-auto shrink-0" />
-          <span class="text-xl font-bold text-highlighted">Chat</span>
+          <span class="text-xl font-bold text-highlighted">{{ SITE_NAME }}</span>
         </NuxtLink>
 
         <UDashboardSidebarCollapse class="ms-auto" />
@@ -171,20 +171,6 @@ defineShortcuts({
           class="w-full"
           @click="openInPopup('/auth/github')"
         />
-        <UTooltip
-          v-else
-          text="Sign-in is not connected yet: its owner sets a GitHub OAuth app's id and secret"
-          :content="{ side: 'top' }"
-        >
-          <UButton
-            :label="collapsed ? '' : 'GitHub sign-in not connected'"
-            icon="i-simple-icons-github"
-            color="neutral"
-            variant="ghost"
-            class="w-full text-muted"
-            disabled
-          />
-        </UTooltip>
       </template>
     </UDashboardSidebar>
 
